@@ -1,0 +1,44 @@
+# INTRODUCTION:
+#
+#  In 2007, Neelakanth Nadgir did post  a script on his blog to display
+# ASCII Bar graphs using the Ruby language. To have a quick way to plot
+# some numbers on terminal to understand tendencies and quickly visuali
+# ze things is very useful. So, as he did published the script  "as-is"
+# and as he put on his blog "In the spirit of sharing", I did some chan
+# ges on it, and did put it on github to share.  Hope you enjoy!
+# 
+# Take a look at this Screenshot:
+# +--------------------------------------------------------------------+
+# |  |   |        |  |         |  |      |          ||   |        |    |
+# |  |   |     || | ||   |     || | ||   |     || | ||   |  |  || | |  |
+# |  | | |  || || |||| | |  || || |||| | |  || || |||| | |  || || |||  |
+# |  | | |  || || |||| | |  || || |||| | |  || || |||| | |  || || |||  |
+# |  | | | |||||| |||| | | |||||| |||| | | |||||| |||| | | |||||| |||  |
+# |  | ||||||||||||||| ||||||||||||||| ||||||||||||||| ||||||||||||||  |
+# |  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |
+# |  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |
+# |  ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |
+# |  Max Value: 78                                                     |
+# |  Min Value: 23                                                     |
+# +--------------------------------------------------------------------+
+# 
+#
+# INSTALL:
+# 
+# Just copy the script to some directory in your PATH.
+#
+#
+# USAGE:
+# 
+# Just pipe the numbers you want to plot to graph.rb.
+#
+#
+# EXAMPLE:
+# 
+# Here is just a random script so you can see the usage:
+#
+# ruby -w -e "while true do puts rand(100); STDOUT.flush; 
+end" | ./graph.rb
+#
+# -- Leal
+# [ http://www.eall.com.br/blog ]
