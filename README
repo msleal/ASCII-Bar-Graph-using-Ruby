@@ -37,7 +37,7 @@
 # 
 # Here is just a random script so you can see the usage:
 #
-# ruby -w -e "while true do puts rand(100); STDOUT.flush; 
+# ruby -w -e "while true do puts rand(100); STDOUT.flush; sleep 1; \ 
 end" | ./graph.rb
 #
 # -- Leal

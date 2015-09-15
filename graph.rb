@@ -1,4 +1,4 @@
-#!/usr/bin/env ruby -w
+#!/usr/bin/env ruby
 # 
 # -> Display random numbers (from stdin) as a live ASCII bar graph. 
 # 
